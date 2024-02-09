@@ -38,5 +38,5 @@ module clock_divider #(parameter PSC = 100) (
             clk_o   <= 0;
         end
     end
-    
+
 endmodule

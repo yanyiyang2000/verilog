@@ -81,4 +81,5 @@ module bcd_counter_wrapper(
         .an_o(an_o),
         .ca_o(ca_o)
     );
+
 endmodule

@@ -75,6 +75,7 @@ module seven_segment_display(
             3 : num_tmp = dig0_i; // displays on the rightmost seven-segment display
         endcase
     end
+
 endmodule
 
 
@@ -127,6 +128,7 @@ module anode_driver(
             end
         end
     end
+
 endmodule
 
 
@@ -170,4 +172,5 @@ module cathode_driver(
             4'b1111 : ca_o = 7'b0111000; // 'F'
         endcase
     end
+
 endmodule
